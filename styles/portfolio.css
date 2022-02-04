@@ -29,10 +29,53 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-colour);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-colour);
+  background-color: var(--secondary-colour);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-colour);
+}
+
+footer .email-link:hover {
+  color: var(--branding-colour);
 }
 
 .hero {
@@ -113,6 +156,7 @@ p {
 .navbar {
   position: fixed;
   top: 0;
+  width: 100%;
 }
 
 .logo {
@@ -135,6 +179,11 @@ p {
   h2 {
     font-size: 44px;
   }
+
+  h4 {
+    font-size: 26px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
