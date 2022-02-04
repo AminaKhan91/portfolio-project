@@ -98,6 +98,15 @@ footer .email-link:hover {
   color: #272142;
 }
 
+.homepage-para {
+  border-radius: 10px;
+  background-color: var(--branding-colour);
+  border-style: solid;
+  border-color: var(--secondary-colour);
+  padding: 20px;
+  color: white;
+}
+
 .content-container {
   padding: 60px 20px;
 }
@@ -143,10 +152,15 @@ footer .email-link:hover {
 .btn-branding-outline {
   color: var(--branding-colour);
   border: 1px solid var(--branding-colour);
+  background-color: black;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+
+.btn-branding-outline:hover {
+  color: white;
 }
 
 .project-description {
@@ -185,7 +199,7 @@ footer .email-link:hover {
   }
 
   .hero {
-    padding: 80px 20px;
+    padding: 100px 20px;
   }
   .content {
     text-align: center;
