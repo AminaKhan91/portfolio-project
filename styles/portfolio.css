@@ -78,6 +78,11 @@ footer .email-link:hover {
   color: var(--branding-colour);
 }
 
+footer p a {
+  color: white;
+  text-decoration: none;
+}
+
 .hero {
   background: var(--secondary-colour);
   text-align: center;
