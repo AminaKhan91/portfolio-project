@@ -33,6 +33,10 @@ h3 {
   font-size: 48px;
 }
 
+h4 {
+  font-size: 38px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -190,6 +194,10 @@ footer p a {
   padding: 0 10px;
 }
 
+.certificates {
+  font-size: 0;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -200,6 +208,10 @@ footer p a {
   }
 
   h3 {
+    font-size: 26px;
+  }
+
+  h4 {
     font-size: 26px;
   }
 
